@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: practice-api
+
+    ports:
+      - "9000:8000"
