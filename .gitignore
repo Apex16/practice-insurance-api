@@ -1,5 +1,37 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[codz]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Django
 db.sqlite3
+db.sqlite3-journal
+*.log
+
+# Environment Variables
 .env
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Type Checking
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
